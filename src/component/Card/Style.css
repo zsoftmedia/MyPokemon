@@ -1,0 +1,67 @@
+.card{
+    background-color: rgba(255, 241, 255, 0.911);
+    margin-bottom: 5px;
+    border-bottom: 1px solid blue;
+}
+.card-img-top{
+    width: 120px;
+    margin: 10px auto;   
+}
+.card-title{
+    text-transform: capitalize;
+    border-bottom: 1px solid lightgreen;
+}
+.types{
+     border:1px solid rgb(132, 168, 132);
+     display: inline-block;
+      border-radius: 10px;
+      background: rgb(92, 205, 126);
+      width:60px;
+      padding: 2px;
+      margin: 5px;
+      justify-content: center;
+      text-transform: capitalize;      
+}
+.title
+{
+    font-size: 1.2rem;
+    margin: 2px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    text-transform: capitalize;
+
+}
+.header{
+    background: rgb(41, 57, 71);
+    text-align: left;
+    text-transform: capitalize;
+    color: rgb(243, 241, 232);
+    padding: 3px;
+    
+}
+li{
+    text-align: left;
+    margin-left: 18px;
+    padding-right: 5px;
+    list-style: circle;
+    font-size: 12px;
+}
+
+ul{
+    background-color: rgb(211, 224, 199);
+    text-transform: capitalize;
+}
+li:hover{
+    background-color: rgb(1, 48, 28);
+    color: #ffffff;
+}
+.moves{
+    display: contents;
+    text-align: left;
+    margin: 1px;
+    padding: 1px;
+}
+.moves:hover{
+    color: rgb(243, 54, 29);
+}
